@@ -348,8 +348,13 @@ public class Main {
                     float maximo4 = 0;
                     float minimo4 = 0;
                     for (int i = 0; i < dataBase.size(); i++){
-                        if(dataBase.get(i).getTmax().equals("")){
-                            break;
+                        if(dataBase.get(i).getTmax().equals("")){   
+                        }
+                        else if(dataBase.get(i).getTmin().equals("")){
+                        }
+                        else if(dataBase.get(i).getPrcp().equals("")){
+                        }
+                        else if(dataBase.get(i).getTavg().equals("")){
                         }
                         else{
                             if (usuario == 1){
