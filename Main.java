@@ -18,7 +18,7 @@ public class Main {
                 dataBase.add(x);
             }
         while (bucle){
-            System.out.println("dijiteel numero de la función que desea utlizar:\n1    imprimir tabla de datos \n3   conseguir los promedios de los cuatro valores numéricos presentes en el CSV \n4 para filtrar los valores según lo requiera el usuario \n5 para hayar maximos o minimos ");
+            System.out.println("dijiteel numero de la función que desea utlizar:\n1    imprimir tabla de datos \n2 para crear tabla con lineas añadidas \n3   conseguir los promedios de los cuatro valores numéricos presentes en el CSV \n4 para filtrar los valores según lo requiera el usuario \n5 para hayar maximos o minimos ");
             int función = sc.nextInt();
 
             if (función == 1) {
