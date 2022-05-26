@@ -337,6 +337,7 @@ public class Main {
                 }
 
                 if(función == 5){
+                    System.out.println("Hola usario digite 1 si quiere la temperatura maxima mas alta, digite 2 si quiere la temperatura maxima mas baja, digite 3 si quiere la temperatura minima mas alta, digite 4 si quiere la temperatura minima mas baja, digite 5 si quiere el promedio de precipitaciones mas alto, digite 6 si quiere el promedio de precipitaciones mas bajo, digite 7 si quiere la temperatura media mas alta, digite 8 si quiere la temperatura media mas baja");
                     float usuario = sc.nextInt();
                     float maximo = 0;
                     float minimo = 0;
